@@ -48,7 +48,8 @@ def graham(points):
 
     return s.get_list()
 
-points = [[4,2],[-3,-1],[1,2],[-6,5],[5,3],[-2,1], [-1.4,3.2],[5.1,-1.3]]
+#points = [[4,2],[-3,-1],[1,2],[-6,5],[5,3],[-2,1], [-1.4,3.2],[5.1,-1.3]]
+points = [[random.randint(0,100),random.randint(0,100)] for i in range(100)]
 
 x = [elem[0] for elem in points]
 y = [elem[1] for elem in points]
